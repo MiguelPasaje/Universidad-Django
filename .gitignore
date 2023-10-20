@@ -1,0 +1,32 @@
+# Archivos y directorios generados por Django
+__pycache__
+*.pyc
+*.pyo
+*.db
+
+# Archivos de configuración
+.env
+*.ini
+
+# Directorios generados por Python
+venv/
+__pycache__/
+
+# Archivos de registros y datos temporales
+*.log
+*.sqlite3
+
+# Carpeta de medios (archivos cargados por los usuarios)
+media/
+
+# Archivos generados por IDEs o editores de código
+.vscode/
+.idea/
+
+# Archivos y directorios específicos de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias (si utilizas administradores de paquetes)
+pip-lock.txt
+yarn.lock
